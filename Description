@@ -1,3 +1,16 @@
 # Follow-Me-Bike-
 Follow-Me Bike is a semi-autonomous robot bicycle that can detect, track, and follow a specific user based on visual cues and Bluetooth signals. The system uses a combination of computer vision (YOLOv5), mobile communication (BLE/GPS), and path-following logic. The initial prototype focuses on simulating this behavior in a controlled 2D environment before deploying on real hardware using ROS.
 
+FEATURES:
+- Person + bicycle detection using YOLOv5
+- Real-time visual tracking with bounding box
+- PID-based motion simulation
+- Basic obstacle avoidance logic
+- BLE and GPS coordination (simulated)
+- Ready for ROS integration by 14 July 2025
+
+Technologies
+- Python, OpenCV, YOLOv5
+- Matplotlib / PyGame / Turtle
+- ROS (starting 14 July)
+- BLE/GPS simulation
